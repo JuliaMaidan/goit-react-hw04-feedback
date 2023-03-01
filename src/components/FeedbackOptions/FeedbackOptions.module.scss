@@ -1,0 +1,24 @@
+.list {
+    display: flex;
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+}
+
+.btn {
+    padding: 12px;
+    background-color: white;
+    color: rgb(96, 90, 223);
+    border: 1px solid rgb(96, 90, 223);
+    border-radius: 8%;
+
+    &:hover, &:focus {
+        background-color: rgb(96, 90, 223);
+        color: white;
+        border: none;
+    }
+}
